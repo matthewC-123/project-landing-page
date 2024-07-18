@@ -1,0 +1,82 @@
+/* CSS Selectors go here */
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  display: flex;
+  padding: 16px;
+}
+
+.header {
+  justify-content: space-between;
+  background-color: #1f2937;
+  color: #f9faf8;
+  size: 24px;
+  padding: 12px 48px;
+}
+
+.footer {
+  background: #1f2937;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+#header-logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.content-1 {
+  background-color: #1f2937;
+  padding: 50px;
+  flex-direction: row;
+}
+
+.content-2 {
+  background-color: #f9faf8;
+  padding: 50px;
+}
+
+.content-3 {
+  background-color: #e5e7eb;
+  padding: 50px;
+}
+
+.content-4 {
+  background-color: #f9faf8;
+  padding: 50px;
+}
+
+img {
+  padding: 5px;
+  width: 350px;
+}
