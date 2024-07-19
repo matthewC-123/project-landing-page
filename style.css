@@ -20,6 +20,7 @@ body {
   font-family: Roboto;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .header,
@@ -49,12 +50,6 @@ ul {
   gap: 16px
 }
 
-#header-logo {
-  font-weight: bold;
-  font-size: 24px;
-  color: #f9faf8;
-}
-
 .content-1 {
   background-color: #1f2937;
   padding: 50px;
@@ -64,7 +59,7 @@ ul {
 
 .content-2 {
   background-color: #f9faf8;
-  padding: 15px;
+  padding: 50px;  
   text-align: center;
   gap: 25px;
   display: flex;
@@ -81,7 +76,15 @@ ul {
   padding: 50px;
 }
 
-img {
+#blue-container{
+  background-color: #3882f6;
+}
+
+#img1{
+  width: 70px;
+ }
+
+#img2 {
   padding: 5px;
   width: 350px;
 }
@@ -102,12 +105,29 @@ img {
   gap: 52px;
 }
 
-.info {
-  max-width: 200px;
+.info, .box{
+  margin-bottom: 10px;
 }
 
 .title {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+}
+
+#quote {
+  font-style: italic;
+  font-size: 36px;
+}
+
+#quoter {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.box, img {
+  display: flex;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 15px;
 }
