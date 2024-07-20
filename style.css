@@ -16,30 +16,26 @@ button {
 
 body {
   height: 100vh;
-  margin: 0;
   font-family: Roboto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.header,
-.footer {
-  display: flex;
-  padding: 20px;
-}
-
 .header {
+  display: flex;
   justify-content: space-between;
   background-color: #1f2937;
   color: #f9faf8;
-  padding: 0px 100px;
+  padding: 20px 100px;
 }
 
 .footer {
-  background: #1f2937;
+  display: flex;
   justify-content: center;
-  padding: 0px 100px;
+  color: #f9faf8;
+  background: #1f2937;
+  padding: 20px 100px;
 }
 
 ul {
@@ -143,16 +139,12 @@ ul {
   font-size: 36px;
 }
 
-.content-4 button {
+button {
   background-color: #3882f6;
-  border: #f9faf8 solid 1px;
-  border-radius: 25px;
+  border-radius: 15px;
   width: 100px;
 }
 
-.content-1 button {
-  background-color: #3882f6;
-  border: none;
-  border-radius: 25px;
-  width: 100px;
+.content-4 button {
+  border: #f9faf8 solid 1px;
 }
