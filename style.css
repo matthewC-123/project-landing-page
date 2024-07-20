@@ -30,10 +30,11 @@ body {
 }
 
 .header {
+  display: flex;
+  size: 25px;
   justify-content: space-between;
   background-color: #1f2937;
   color: #f9faf8;
-  size: 25%;
   padding: 12px 48px;
   justify-items: center;
 }
