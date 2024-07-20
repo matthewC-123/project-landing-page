@@ -20,15 +20,17 @@ body {
   font-family: Roboto;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   background-color: #1f2937;
   color: #f9faf8;
-  padding: 20px 200px;
   gap: 100px;
+  padding: 20px 200px;
 }
 
 .footer {
@@ -50,36 +52,33 @@ ul {
 .content-1 {
   background-color: #1f2937;
   color: #f9faf8;
-  padding: 20px 200px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 100px;
-  height: 500px;
+  padding: 20px 200px;
 }
 
 .content-2 {
   background-color: #f9faf8;
-  padding: 20px 100px;  
+  padding: 20px 100px;
   text-align: center;
   gap: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 500px;
 }
 
 .content-3 {
   background-color: #e5e7eb;
-  padding: 20px 100px;  
+  padding: 20px 100px;
   display: flex;
   justify-content: center;
-  height: 500px;
 }
 
 .content-4 {
   background-color: #f9faf8;
-  padding: 20px 100px;  
-  height: 500px;
+  padding: 20px 100px;
   display: flex;
   justify-content: center;
 }
@@ -91,8 +90,6 @@ ul {
   justify-content: center;
   justify-items: center;
   padding: 20px;
-  height: 70%;
-  width: 70%;
 }
 
 #img1 {
@@ -145,12 +142,15 @@ ul {
   font-size: 36px;
 }
 
-button {
+.content-1 button {
   background-color: #3882f6;
   border-radius: 15px;
+  border: 0px;
   width: 100px;
 }
 
 .content-4 button {
   border: #f9faf8 solid 1px;
+  border-radius: 15px;
+  width: 100px;
 }
