@@ -30,7 +30,7 @@ body {
 }
 
 .header {
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #1f2937;
   color: #f9faf8;
   padding: 12px 48px;
