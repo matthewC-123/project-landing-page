@@ -16,6 +16,7 @@ button {
 
 body {
   height: 100vh;
+  margin: 0;
   font-family: Roboto;
   display: flex;
   flex-direction: column;
