@@ -26,12 +26,10 @@ body {
 .header,
 .footer {
   display: flex;
-  padding: 16px;
+  padding: 20px;
 }
 
 .header {
-  display: flex;
-  size: 25px;
   justify-content: space-between;
   background-color: #1f2937;
   color: #f9faf8;
@@ -96,7 +94,6 @@ ul {
 }
 
 #img1 {
-  padding: 15px;
   width: 50px;
 }
 
