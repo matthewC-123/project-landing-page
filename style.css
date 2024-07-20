@@ -1,5 +1,9 @@
 /* CSS Selectors go here */
 
+text {
+  font-family: Roboto;
+}
+
 h1 {
   display: block;
   font-size: 2em;
@@ -20,7 +24,6 @@ body {
   font-family: Roboto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
