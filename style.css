@@ -94,8 +94,11 @@ ul {
   width: 70%;
 }
 
+#img1 {
+  width: 50px;
+}
+
 #img2 {
-  padding: 15px;
   width: 350px;
 }
 
