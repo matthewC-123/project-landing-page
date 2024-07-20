@@ -35,6 +35,7 @@ body {
   color: #f9faf8;
   size: 24px;
   padding: 12px 48px;
+  justify-items: center;
 }
 
 .footer {
@@ -88,6 +89,9 @@ ul {
   color: #f9faf8;
   border-radius: 15px;
   justify-content: center;
+  justify-items: center;
+  padding: 20px;
+  width: 100%;
 }
 
 #img1 {
