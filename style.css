@@ -33,6 +33,7 @@ body {
   justify-content: space-between;
   background-color: #1f2937;
   color: #f9faf8;
+  size: 25%;
   padding: 12px 48px;
   justify-items: center;
 }
@@ -95,7 +96,7 @@ ul {
 
 #img1 {
   padding: 15px;
-  width: 10px;
+  width: 50px;
 }
 
 #img2 {
