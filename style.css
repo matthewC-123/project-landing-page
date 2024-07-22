@@ -19,7 +19,7 @@ button {
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   margin: 0%;
   font-family: Roboto;
   display: flex;
@@ -29,7 +29,7 @@ body {
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   color: #f9faf8;
   background-color: #1f2937;
 }
@@ -55,6 +55,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 20px;
 }
 
 .content-2 {
@@ -63,18 +64,21 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px;
 }
 
 .content-3 {
   background-color: #e5e7eb;
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
 .content-4 {
   background-color: #f9faf8;
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
 #blue-container {
