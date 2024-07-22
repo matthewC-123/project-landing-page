@@ -86,11 +86,13 @@ ul {
 #blue-container {
   background-color: violet;
   color: #f9faf8;
-  border-radius: 15px;
-  justify-content: center;
-  justify-items: center;
-  padding: 20px;
-  width: 80%;
+  border-radius: 10px;
+  width: 900px;
+  height: 120px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #img1 {
@@ -153,4 +155,9 @@ ul {
   border: #f9faf8 solid 2px;
   border-radius: 15px;
   width: 100px;
+}
+
+.container-text{
+  display: flex;
+  flex-direction: column;
 }
