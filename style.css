@@ -24,7 +24,7 @@ body {
   font-family: Roboto;
   display: flex;
   flex-direction: column;
-  max-width: 100vh;
+  padding-left: 25%;
 }
 
 .header {
@@ -33,7 +33,7 @@ body {
   justify-content: center;
   background-color: #1f2937;
   color: #f9faf8;
-  max-width: 100vh;
+  padding-left: 25%;
 }
 
 .footer {
