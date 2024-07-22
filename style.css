@@ -30,8 +30,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #1f2937;
   color: #f9faf8;
+  background-color: #1f2937;
 }
 
 .footer {
@@ -55,7 +55,6 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: 25px;
 }
 
 .content-2 {
@@ -64,21 +63,18 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 25px;
 }
 
 .content-3 {
   background-color: #e5e7eb;
   display: flex;
   justify-content: center;
-  padding-left: 25px;
 }
 
 .content-4 {
   background-color: #f9faf8;
   display: flex;
   justify-content: center;
-  padding-left: 25px;
 }
 
 #blue-container {
