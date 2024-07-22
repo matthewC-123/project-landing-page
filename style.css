@@ -24,6 +24,9 @@ body {
   font-family: Roboto;
   display: flex;
   flex-direction: column;
+  max-width: 100vh;
+  gap: 100px;
+  padding: 20px 200px;
 }
 
 .header {
@@ -34,6 +37,7 @@ body {
   color: #f9faf8;
   gap: 100px;
   padding: 20px 200px;
+  max-width: 100vh;
 }
 
 .footer {
@@ -42,6 +46,7 @@ body {
   color: #f9faf8;
   background: #1f2937;
   padding: 20px 200px;
+  gap: 100px;
 }
 
 ul {
@@ -58,15 +63,11 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 100px;
-  padding: 20px 200px;
 }
 
 .content-2 {
   background-color: #f9faf8;
-  padding: 20px 100px;
   text-align: center;
-  gap: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,14 +75,12 @@ ul {
 
 .content-3 {
   background-color: #e5e7eb;
-  padding: 20px 100px;
   display: flex;
   justify-content: center;
 }
 
 .content-4 {
   background-color: #f9faf8;
-  padding: 20px 100px;
   display: flex;
   justify-content: center;
 }
