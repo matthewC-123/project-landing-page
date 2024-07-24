@@ -65,8 +65,8 @@ ul {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 100px;
+  gap: 100px;
 }
 
 .content-3 {
@@ -121,7 +121,7 @@ ul {
 .container {
   display: flex;
   justify-content: center;
-  gap: 52px;
+  gap: 66px;
 }
 
 .info,
